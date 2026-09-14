@@ -1,7 +1,7 @@
 const SI_BASE = "https://api.si.edu/openaccess/api/v1.0";
 
 // National Museum of African Art unit code — scopes every search to African art objects.
-const AFRICAN_ART_QUERY = 'unit_code:"NMAFA"';
+const AFRICAN_ART_QUERY = 'unit_code:"NMAfA"';
 
 export async function searchAfricanArt(apiKey, start, rows) {
   const url = new URL(`${SI_BASE}/search`);
